@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1 class="title"> Rock Paper Scissors!</h1>
+    <div class="buttons">
+        <button class="button" data-choice="rock">Rock</button>
+        <button class="button" data-choice="paper">Paper</button>
+        <button class="button" data-choice="scissors">Scissors</button>
+    </div>
+
+    <div class="result">
+        <div> 
+            YOU: 
+            <span class="score" data-player-score >0</span>
+        </div>
+        <div>
+            COMPUTER: 
+            <span class="score" data-computer-score>0</span>
+        </div>
+    </div>
+
+    <div class="results">
+        <div id="resultcontainer"></div>
+        <div class="playagain">
+            <button class="again">Play again</button>
+        </div>
+    </div>
+
+    <div class="footer">Made by Elwin Joshua</div>
+</body>
+</html>
